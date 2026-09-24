@@ -1,0 +1,3 @@
+export function SystemArchitecture() {
+  return <div className="space-y-6"><div><h2 className="text-xl font-bold text-white">System Architecture</h2><p className="text-sm text-slate-500">Demo architecture for the EcoLean AI monitoring workflow.</p></div><div className="grid gap-4 md:grid-cols-3">{[['Telemetry', 'CNC sensors and machine signals'], ['Analytics', 'Risk, energy, and waste calculations'], ['Operations', 'Alerts, investigation, and operator actions']].map(([title, text]) => <div className="card" key={title}><h3 className="font-semibold text-cyan">{title}</h3><p className="mt-2 text-sm text-slate-400">{text}</p></div>)}</div></div>
+}
